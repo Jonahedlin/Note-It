@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #d3fad6;
+}
+
+.app-container {
+  width: 360px;
+  height: 640px;
+  overflow-y: auto;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #d3fad6;
+}
+
+.app-logo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.app-logo-video {
+  height: 120%;
+  width: auto;
+}
+
+/* Squircle-style rounding */
+.note-form,
+.note-card,
+.note-textarea,
+.note-select,
+.note-form .btn {
+  border-radius: 18px !important;
+}
+
+.note-form {
+  background-color: #94ddbc !important;
+  border: none !important;
+}
+
+.note-textarea {
+  resize: none;
+  background-color: #d3fad6 !important;
+  border: none !important;
+}
+
+.note-textarea:focus {
+  background-color: #d3fad6 !important;
+  box-shadow: 0 0 0 2px rgba(0,0,0,0.1) !important;
+}
+
+.note-select {
+  min-width: 90px;
+  background-color: #d3fad6 !important;
+  border: none !important;
+}
+
+.note-select:focus {
+  box-shadow: 0 0 0 2px rgba(0,0,0,0.1) !important;
+}
+
+.note-card {
+  background-color: #94ddbc !important;
+  border: none !important;
+}
+
+.notes-list {
+  max-height: 360px;
+  overflow-y: auto;
+}
+
+.note-card-text {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+/* Category dot on note cards */
+.category-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* Circular delete button */
+.delete-btn-circle {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1.5px solid #dc3545;
+  color: #dc3545;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 0.65rem;
+  flex-shrink: 0;
+  padding: 0;
+  line-height: 1;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.delete-btn-circle:hover {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+/* Category tabs */
+.nav-tabs {
+  border-bottom-color: rgba(0,0,0,0.1);
+}
+
+.nav-tabs .nav-link {
+  cursor: pointer;
+  border-radius: 12px 12px 0 0 !important;
+  transition: background-color 0.15s, color 0.15s;
+  color: #333;
+}
+
+.nav-tabs .nav-link:not(.active):hover {
+  background-color: rgba(0,0,0,0.05);
+}

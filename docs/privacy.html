@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Note It Down!!</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background-color: #d3fad6;
+      color: #1a1a1a;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      padding: 48px 16px;
+    }
+
+    .card {
+      background-color: #94ddbc;
+      border-radius: 24px;
+      padding: 48px 52px;
+      max-width: 740px;
+      width: 100%;
+      height: fit-content;
+    }
+
+    .logo {
+      display: block;
+      margin: 0 auto 28px;
+      height: 100px;
+      width: auto;
+    }
+
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 6px;
+      color: #1a1a1a;
+    }
+
+    .subtitle {
+      text-align: center;
+      font-size: 0.875rem;
+      color: #3a3a3a;
+      margin-bottom: 36px;
+    }
+
+    h2 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      margin: 28px 0 8px;
+      color: #1a1a1a;
+    }
+
+    p, li {
+      font-size: 0.95rem;
+      line-height: 1.7;
+      color: #2a2a2a;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin-top: 6px;
+    }
+
+    li { margin-bottom: 4px; }
+
+    .highlight {
+      background-color: #d3fad6;
+      border-radius: 12px;
+      padding: 14px 18px;
+      margin: 20px 0;
+      font-size: 0.95rem;
+      line-height: 1.7;
+    }
+
+    .divider {
+      border: none;
+      border-top: 1.5px solid rgba(0,0,0,0.1);
+      margin: 28px 0;
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 0.8rem;
+      color: #3a3a3a;
+      margin-top: 36px;
+    }
+
+    a { color: #1a6e42; }
+  </style>
+</head>
+<body>
+  <div class="card">
+
+    <h1>Privacy Policy</h1>
+    <p class="subtitle">Note It Down!! Chrome Extension &nbsp;·&nbsp; Effective date: May 8, 2026</p>
+
+    <div class="highlight">
+      <strong>Short version:</strong> Note It Down!! stores your notes exclusively on your own device.
+      We do not collect, transmit, or share any of your data — ever.
+    </div>
+
+    <h2>1. Who We Are</h2>
+    <p>
+      Note It Down!! is a Chrome browser extension developed by Jonah Ssembatya.
+      If you have any questions about this policy, you can reach out via the GitHub repository
+      linked on the Chrome Web Store listing.
+    </p>
+
+    <h2>2. Data We Collect</h2>
+    <p>We collect <strong>no personal data</strong>. Specifically:</p>
+    <ul>
+      <li>We do not collect your name, email address, or any identifying information.</li>
+      <li>We do not track your browsing activity or the pages you visit.</li>
+      <li>We do not use cookies, analytics, or any third-party tracking services.</li>
+    </ul>
+
+    <h2>3. How Your Notes Are Stored</h2>
+    <p>
+      Notes you create are saved using your browser's built-in <code>localStorage</code> API.
+      This means your notes are stored <strong>locally on your device only</strong> — inside Chrome's
+      own storage for this extension. They are never sent to any server, database, or third party.
+    </p>
+    <ul>
+      <li>Notes remain on your device until you delete them or uninstall the extension.</li>
+      <li>Clearing Chrome's site data for this extension will permanently remove all stored notes.</li>
+      <li>Notes are not synced across devices.</li>
+    </ul>
+
+    <h2>4. Permissions</h2>
+    <p>
+      The extension declares the <code>storage</code> permission in its manifest for forward
+      compatibility. In the current version, all storage is handled through <code>localStorage</code>
+      and no chrome.storage API calls are made.
+      No other browser permissions are requested.
+    </p>
+
+    <h2>5. Third-Party Services</h2>
+    <p>
+      Note It Down!! does not integrate with, communicate with, or share data with any
+      third-party service, API, or server.
+    </p>
+
+    <h2>6. Children's Privacy</h2>
+    <p>
+      This extension does not knowingly collect any information from anyone, including children
+      under the age of 13. As no data is collected at all, no special handling is required.
+    </p>
+
+    <h2>7. Changes to This Policy</h2>
+    <p>
+      If this privacy policy changes in a future version of the extension, the updated policy
+      will be published at this URL and the effective date above will be updated. Continued use
+      of the extension after any changes constitutes acceptance of the revised policy.
+    </p>
+
+    <hr class="divider" />
+
+    <p class="footer">
+      &copy; 2026 Jonah Ssembatya &nbsp;·&nbsp; Note It Down!! &nbsp;·&nbsp;
+      All notes stay on your device.
+    </p>
+
+  </div>
+</body>
+</html>
