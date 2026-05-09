@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Note-It",
+  "name": "Note It Down!!",
   "version": "1.0.0",
   "description": "A notes app for your browser. Add, delete, and organize notes by category.",
   "action": {
